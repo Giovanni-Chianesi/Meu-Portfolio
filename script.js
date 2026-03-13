@@ -53,7 +53,7 @@ if (savedTheme) {
 // ANIMAÇÃO DO TÍTULO
 // Seleciona o elemento do título e define variáveis para a animação
 const titleElement = document.querySelector('#name');
-const text = "CODEMASTER";
+const text = "PORTFÓLIO";
 let index = 0;
 let isTyping = true;
 let  currentColor = document.documentElement.classList.contains('light') ? 'black' : 'white';
@@ -74,7 +74,7 @@ if (isTyping) {
         } else {
             isTyping = true;
             currentColor = currentColor === (document.documentElement.classList.contains
-            ('light') ? 'black' : '#fff') ? '#C94C16' : (document.documentElement.classList.
+            ('light') ? 'black' : '#fff') ? '#7353BA' : (document.documentElement.classList.
             contains('light') ? 'black' : 'white');
             titleElement.style.color = currentColor;
         }

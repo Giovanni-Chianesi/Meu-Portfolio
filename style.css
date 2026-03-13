@@ -12,11 +12,11 @@
 :root {
   font-size: 62.5%;
 
-  --bg-color: #000000;
-  --second-bg-color: #C94C16;
+  --bg-color: #2F5A6E;
+  --second-bg-color: #97DB4F;
   --text-color: #ffffff;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 0.5);
+  --second-text-color: #97DB4F;
+  --card-bg-color: #7353BA;
 
   --first-font: 'Lato', sans-serif;
   --second-font: 'Inter', sans-serif;
@@ -45,12 +45,12 @@
 }
 
 .light {
-  --bg-color: #ffffff;
-  --second-bg-color: #C94C16;
-  
+  --bg-color: #AED4E6;
+  --second-bg-color: #97DB4F;
+
   --text-color: #000000;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 1);
+  --second-text-color: #97DB4F;
+  --card-bg-color: #7353BA;
 
   --highlight-color: rgba(0, 0, 0, 0.25);
   --switch-bg-url: url("./img/sun.svg");
@@ -69,10 +69,10 @@
   --button-text-color-hover: #000000;
 
   --bg-contact: url("./img/bg-contact-white.png");
-  --border-form: 2px solid hsla(18, 80%, 44%, 1);
+  --border-form: 2px solid #97DB4F;
   --bg-form: rgba(255, 255, 255, 0.726);
 
-  --color-social-media: #C94C16;
+  --color-social-media: #97DB4F;
 }
 
 body {
@@ -442,7 +442,7 @@ img.balls {
 }
 
 .line {
-  border: 2px #FF4D00 solid;
+  border: 2px #7353BA solid;
   width: 17rem;
   margin-bottom: 1rem;
 }
@@ -498,13 +498,15 @@ img.balls {
 
 .card:hover {
   cursor: pointer;
-  background-color: #FF4D00;
+  background-color: #664aa2;
   transform: translateY(-10px);
 }
 
 .card img {
-  width: 7rem;
-  height: 7rem;
+  width: 80%;
+  height: %50;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .tools .card img {
@@ -872,8 +874,8 @@ form textarea {
   }
   .about-img img {
     width: 100%;
-    height: auto;
-    max-width: 80%;
+    height: 100%;
+    max-width: 100%;
   }
   img.balls {
     display: none !important;
